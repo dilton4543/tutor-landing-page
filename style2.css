@@ -1,0 +1,163 @@
+body{
+    background-color: #010313;
+    color: #ffff;
+    width: 100p%;
+}
+.tutor{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    padding: 2px 4px;
+}
+
+
+a{
+    border: 1px solid blue;
+    background: #010313;
+    color: #ffff;
+    padding: 8px 8px;
+    display: flex;
+    width: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: center;
+    text-decoration: none;
+}
+#html{
+    text-align: center;
+}
+#learn{
+    font-size: 50px;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+#button{
+    background: blue;
+    color: #ffff;
+    border: 1px solid blue;
+    font-size: 15px;
+    width: 110px;
+    padding: 5px 5px 5px;
+}
+#email{
+    font-size: 15px;
+    width:300px;
+    padding:5px 5px 5px ;
+}
+.class{
+    display: flex;
+    justify-content: center;
+}
+.html{
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.class1{
+    display: flex;
+    justify-content: center; 
+    background: #5A3FC41A;
+}
+#how {
+    margin-bottom: 0;
+    padding-top: 25px;
+    background: #5A3FC41A;
+}
+.acct{
+    margin: 10px;
+    padding: 40px;
+    text-align: center;
+}
+#butget{
+    background: #5A3FC41A;
+}
+#getstarted{
+    color: #ffff;
+    background: blue;
+    width: 100px;
+    border: 1px solid blue;
+    margin-bottom: 25px;
+}
+.girl{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    padding: 15px;
+    font-size: 15px;
+    width:100%;
+    margin-left: 1px;
+}
+#subscr{
+    background: blue;
+    color: #ffff;
+    border: 1px solid blue;
+    font-size: 15px;
+    width: 110px;
+    padding: 5px 5px 5px;
+}
+
+#es{
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 15px;
+    text-align: left;
+}
+.tr {
+    display: flex;
+    justify-content: center;
+    margin-left: 2px;
+}
+#est1 {
+    margin-right: 500px;
+    float: left;
+    margin-left: 15px;
+
+}
+#mailing{
+    clear: left;
+}
+.y{
+    text-align:left;
+}
+@media screen and (max-width: 400px) {
+    #learn{
+        font-size: 20px;
+        width: ;
+    }
+    #best{
+        font-size: 25px;
+        width: ;
+    }
+    .class{
+        flex-direction: column;
+        width: ;
+    }
+    .class1{
+        flex-direction: column;
+        width: ;
+    }
+    p{
+        font-size: 15px;
+    }
+    body{
+        width: %;
+    }
+
+}
